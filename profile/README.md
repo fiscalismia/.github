@@ -10,40 +10,48 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 ### **https://github.com/orgs/fiscalismia/repositories**
 
-**Backend**         → https://github.com/fiscalismia/fiscalismia-backend
+**Express Backend**         → https://github.com/fiscalismia/fiscalismia-backend
 
-**Frontend**        → https://github.com/fiscalismia/fiscalismia-frontend
+**React & Material UI Frontend**        → https://github.com/fiscalismia/fiscalismia-frontend
 
-**Infrastructure**  → https://github.com/fiscalismia/fiscalismia-infrastructure
+**Cloud Infrastructure**  → https://github.com/fiscalismia/fiscalismia-infrastructure
 
-**Lambdas**         → https://github.com/fiscalismia/fiscalismia-lambdas
+**AWS Lambdas**         → https://github.com/fiscalismia/fiscalismia-lambdas
 
-**LoadBalancer**    → https://github.com/fiscalismia/fiscalismia-loadbalancer
+**HAProxy LoadBalancer**    → https://github.com/fiscalismia/fiscalismia-loadbalancer
 
-**Monitoring**      → https://github.com/fiscalismia/fiscalismia-monitoring
+**Prometheus & Grafana Monitoring**      → https://github.com/fiscalismia/fiscalismia-monitoring
 
 ---
 
 ## CI/CD Pipelines
 
-**Backend Pipeline** → https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml
+### _OCI Container publishing_
 
-**Frontend Pipeline** → https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml
+- **Backend Pipeline** → [backend-pipeline.yml](https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml)
 
-**Webservice Deployment Pipeline**  → https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/webservice-deployment-pipeline.yml
+- **Frontend Pipeline** → [frontend-pipeline.yml](https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml)
 
-**DNS TLS Certificate Validation**  → https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/fetch-and-validate-tls-certs.yml
+- **Loadbalancer Pipeline** → [publish-haproxy-image.yml](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml)
 
-**Security-Evaluation HCLOUD**  → https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/security-evaluation-hcloud.yml
+- **Monitoring Pipeline** → [publish-prometheus-grafana-images.yml](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml)
 
-**HCLOUD Terraform Pipeline** → https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-hcloud.yml
+### _Target Server Deployment_
 
-**AWS Terraform Pipeline** → https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-aws.yml
+- **Webservice Deployment Pipeline** → [webservice-deployment-pipeline.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/webservice-deployment-pipeline.yml)
 
-**TerraformModuleDestroyer Pipeline** → https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-module-destroyer.yml
+### _Security & Networking_
 
-**Lambdas Deployment Pipeline** → https://github.com/fiscalismia/fiscalismia-lambdas/actions/workflows/lambda-deployment.yml
+- **DNS TLS Certificate Validation** → [fetch-and-validate-tls-certs.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/fetch-and-validate-tls-certs.yml)
 
-**Loadbalancer Pipeline** → https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml
+- **Security-Evaluation HCLOUD** → [security-evaluation-hcloud.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/security-evaluation-hcloud.yml)
 
-**Monitoring Pipeline** → https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/monitoring-pipeline.yml
+### _Cloud Infrastructure Provisioning_
+
+- **HCLOUD Terraform Pipeline** → [terraform-apply-hcloud.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-hcloud.yml)
+
+- **AWS Terraform Pipeline** → [terraform-apply-aws.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-aws.yml)
+
+- **TerraformModuleDestroyer Pipeline** → [terraform-module-destroyer.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-module-destroyer.yml)
+
+- **Lambdas Deployment Pipeline** → [lambda-deployment.yml](https://github.com/fiscalismia/fiscalismia-lambdas/actions/workflows/lambda-deployment.yml)
