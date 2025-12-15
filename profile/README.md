@@ -40,6 +40,8 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 - **Webservice Deployment Pipeline** → [webservice-deployment-pipeline.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/webservice-deployment-pipeline.yml)
 
+- **Infrastructure Deployment Pipeline**  → [infrastructure-deployment-pipeline.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/infrastructure-deployment-pipeline.yml)
+
 ### _Security & Networking_
 
 - **DNS TLS Certificate Validation** → [fetch-and-validate-tls-certs.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/fetch-and-validate-tls-certs.yml)
