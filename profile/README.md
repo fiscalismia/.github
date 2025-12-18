@@ -10,15 +10,15 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 ### **https://github.com/orgs/fiscalismia/repositories**
 
-**Express Backend**         → https://github.com/fiscalismia/fiscalismia-backend
+**FRONTEND (React & Material UI)**        → https://github.com/fiscalismia/fiscalismia-frontend
 
-**React & Material UI Frontend**        → https://github.com/fiscalismia/fiscalismia-frontend
+**BACKEND (NodeJS Express REST API)**         → https://github.com/fiscalismia/fiscalismia-backend
 
-**Cloud Infrastructure**  → https://github.com/fiscalismia/fiscalismia-infrastructure
-
-**AWS Lambdas**         → https://github.com/fiscalismia/fiscalismia-lambdas
+**AWS & Hetzner Cloud Infrastructure**  → https://github.com/fiscalismia/fiscalismia-infrastructure
 
 **HAProxy LoadBalancer**    → https://github.com/fiscalismia/fiscalismia-loadbalancer
+
+**AWS Lambdas**         → https://github.com/fiscalismia/fiscalismia-lambdas
 
 **Prometheus & Grafana Monitoring**      → https://github.com/fiscalismia/fiscalismia-monitoring
 
