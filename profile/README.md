@@ -1,10 +1,10 @@
 ## Fiscalismia-Webservice
 
 **Technical Overview:**
-Fiscalismia Webservice consisting of frontend, backend, loadbalancer, haproxy nat-gateway, prometheus & grafana monitoring with their own respective repositories. Hosted in both Hetzner Cloud and AWS. Fully automated IaC via terraform and github actions.
+Fullstack Cloudservice consisting of frontend, backend, HAproxy loadbalancer, NAT-Gateway, Lambda ETL, S3-storage, prometheus & grafana monitoring with their own respective repositories. Hosted in both Hetzner Cloud and AWS. Fully automated IaC via terraform and github actions.
 
 **Purpose:**
-Personal finance web service for visualizing, analyzing, aggregating, importing and exporting financial data with low overhead and a high degree of automation.
+Personal finance web service for visualizing, analyzing, aggregating, importing and exporting financial data with low friction and a high degree of automation.
 
 ## Repositories
 
