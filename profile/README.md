@@ -26,7 +26,7 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 ## CI/CD Pipelines
 
-### _OCI Container publishing_
+### _OCI Image publishing_
 
 - **Backend Pipeline** → [backend-pipeline.yml](https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml)
 
