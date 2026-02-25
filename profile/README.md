@@ -20,6 +20,8 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 **AWS Lambdas**         → https://github.com/fiscalismia/fiscalismia-lambdas
 
+**Webscraper (Python Playwright)**         → https://github.com/fiscalismia/fiscalismia-webscraper
+
 **Prometheus & Grafana Monitoring**      → https://github.com/fiscalismia/fiscalismia-monitoring
 
 ---
