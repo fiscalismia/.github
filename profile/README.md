@@ -30,9 +30,11 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 ### _OCI Image publishing_
 
+- **Frontend Pipeline** → [frontend-pipeline.yml](https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml)
+
 - **Backend Pipeline** → [backend-pipeline.yml](https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml)
 
-- **Frontend Pipeline** → [frontend-pipeline.yml](https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml)
+- **Webscraper Pipeline** → [webscraper-pipeline.yml](https://github.com/fiscalismia/fiscalismia-webscraper/actions/workflows/webscraper-pipeline.yml)
 
 - **Loadbalancer Pipeline** → [publish-haproxy-image.yml](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml)
 
