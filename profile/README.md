@@ -42,22 +42,22 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 ### _Target Server Deployment_
 
-- **Webservice Deployment Pipeline** → [webservice-deployment-pipeline.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/webservice-deployment-pipeline.yml)
+- **Webservice Deployment** → [![Webservice Deployment Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/webservice-deployment-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/webservice-deployment-pipeline.yml)
 
-- **Infrastructure Deployment Pipeline**  → [infrastructure-deployment-pipeline.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/infrastructure-deployment-pipeline.yml)
+- **Infrastructure Deployment** → [![Infrastructure Deployment Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/infrastructure-deployment-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/infrastructure-deployment-pipeline.yml)
 
 ### _Security & Networking_
 
-- **DNS TLS Certificate Validation** → [fetch-and-validate-tls-certs.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/fetch-and-validate-tls-certs.yml)
+- **DNS TLS Certificate Validation** → [![DNS TLS Certificate Validation](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/fetch-and-validate-tls-certs.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/fetch-and-validate-tls-certs.yml)
 
-- **Security-Evaluation HCLOUD** → [security-evaluation-hcloud.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/security-evaluation-hcloud.yml)
+- **Security-Evaluation HCLOUD** → [![Security-Evaluation HCLOUD](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/security-evaluation-hcloud.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/security-evaluation-hcloud.yml)
 
 ### _Cloud Infrastructure Provisioning_
 
-- **HCLOUD Terraform Pipeline** → [terraform-apply-hcloud.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-hcloud.yml)
+- **HCLOUD Terraform** → [![HCLOUD Terraform Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-hcloud.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-hcloud.yml)
 
-- **AWS Terraform Pipeline** → [terraform-apply-aws.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-aws.yml)
+- **AWS Terraform** → [![AWS Terraform Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-aws.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-aws.yml)
 
-- **TerraformModuleDestroyer Pipeline** → [terraform-module-destroyer.yml](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-module-destroyer.yml)
+- **TerraformModuleDestroyer** → [![TerraformModuleDestroyer Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-module-destroyer.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-module-destroyer.yml)
 
-- **Lambdas Deployment Pipeline** → [lambda-deployment.yml](https://github.com/fiscalismia/fiscalismia-lambdas/actions/workflows/lambda-deployment.yml)
+- **Lambdas Deployment** → [![Lambdas Deployment Pipeline](https://github.com/fiscalismia/fiscalismia-lambdas/actions/workflows/lambda-deployment.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-lambdas/actions/workflows/lambda-deployment.yml)
