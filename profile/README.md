@@ -30,34 +30,34 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 ### _OCI Image publishing_
 
-- **Frontend** → [![Frontend Pipeline](https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml) ← [Dockerfile](https://github.com/fiscalismia/fiscalismia-frontend/blob/main/Dockerfile)
+- [![Frontend Pipeline](https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml) ← [Dockerfile](https://github.com/fiscalismia/fiscalismia-frontend/blob/main/Dockerfile)
 
-- **Backend** → [![Backend Pipeline](https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml) ← [Dockerfile](https://github.com/fiscalismia/fiscalismia-backend/blob/main/Dockerfile)
+- [![Backend Pipeline](https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml) ← [Dockerfile](https://github.com/fiscalismia/fiscalismia-backend/blob/main/Dockerfile)
 
-- **Webscraper** → [![Webscraper Pipeline](https://github.com/fiscalismia/fiscalismia-webscraper/actions/workflows/webscraper-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-webscraper/actions/workflows/webscraper-pipeline.yml) ← [Dockerfile](https://github.com/fiscalismia/fiscalismia-webscraper/blob/main/Dockerfile)
+- [![Webscraper Pipeline](https://github.com/fiscalismia/fiscalismia-webscraper/actions/workflows/webscraper-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-webscraper/actions/workflows/webscraper-pipeline.yml) ← [Dockerfile](https://github.com/fiscalismia/fiscalismia-webscraper/blob/main/Dockerfile)
 
-- **HAProxy** → [![Loadbalancer Pipeline](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml) ← [Dockerfile](https://github.com/fiscalismia/fiscalismia-loadbalancer/blob/main/Dockerfile)
+- [![Loadbalancer Pipeline](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml) ← [Dockerfile](https://github.com/fiscalismia/fiscalismia-loadbalancer/blob/main/Dockerfile)
 
-- **Monitoring** → [![Monitoring Pipeline](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml) ← [Dockerfile.Prometheus](https://github.com/fiscalismia/fiscalismia-monitoring/blob/main/Dockerfile.Prometheus) [Dockerfile.Grafana](https://github.com/fiscalismia/fiscalismia-monitoring/blob/main/Dockerfile.Grafana)
+- [![Monitoring Pipeline](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml) ← [Dockerfile.Prometheus](https://github.com/fiscalismia/fiscalismia-monitoring/blob/main/Dockerfile.Prometheus) [Dockerfile.Grafana](https://github.com/fiscalismia/fiscalismia-monitoring/blob/main/Dockerfile.Grafana)
 
 ### _Target Server Deployment_
 
-- **Webservice Deployment** → [![Webservice Deployment Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/webservice-deployment-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/webservice-deployment-pipeline.yml)
+- [![Webservice Deployment Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/webservice-deployment-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/webservice-deployment-pipeline.yml)
 
-- **Infrastructure Deployment** → [![Infrastructure Deployment Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/infrastructure-deployment-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/infrastructure-deployment-pipeline.yml)
+- [![Infrastructure Deployment Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/infrastructure-deployment-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/infrastructure-deployment-pipeline.yml)
 
 ### _Security & Networking_
 
-- **DNS TLS Certificate Validation** → [![DNS TLS Certificate Validation](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/fetch-and-validate-tls-certs.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/fetch-and-validate-tls-certs.yml)
+- [![DNS TLS Certificate Validation](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/fetch-and-validate-tls-certs.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/fetch-and-validate-tls-certs.yml)
 
-- **Security-Evaluation HCLOUD** → [![Security-Evaluation HCLOUD](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/security-evaluation-hcloud.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/security-evaluation-hcloud.yml)
+- [![Security-Evaluation HCLOUD](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/security-evaluation-hcloud.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/security-evaluation-hcloud.yml)
 
 ### _Cloud Infrastructure Provisioning_
 
-- **HCLOUD Terraform** → [![HCLOUD Terraform Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-hcloud.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-hcloud.yml)
+- [![HCLOUD Terraform Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-hcloud.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-hcloud.yml)
 
-- **AWS Terraform** → [![AWS Terraform Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-aws.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-aws.yml)
+- [![AWS Terraform Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-aws.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-apply-aws.yml)
 
-- **TerraformModuleDestroyer** → [![TerraformModuleDestroyer Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-module-destroyer.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-module-destroyer.yml)
+- [![TerraformModuleDestroyer Pipeline](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-module-destroyer.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-infrastructure/actions/workflows/terraform-module-destroyer.yml)
 
-- **Lambdas Deployment** → [![Lambdas Deployment Pipeline](https://github.com/fiscalismia/fiscalismia-lambdas/actions/workflows/lambda-deployment.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-lambdas/actions/workflows/lambda-deployment.yml)
+- [![Lambdas Deployment Pipeline](https://github.com/fiscalismia/fiscalismia-lambdas/actions/workflows/lambda-deployment.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-lambdas/actions/workflows/lambda-deployment.yml)
