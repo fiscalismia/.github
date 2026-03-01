@@ -30,15 +30,15 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 ### _OCI Image publishing_
 
-- **Frontend Pipeline** → [frontend-pipeline.yml](https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml)
+- **Frontend Pipeline** → [frontend-pipeline.yml](https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml) [![Frontend Pipeline](https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-frontend/actions/workflows/frontend-pipeline.yml)
 
-- **Backend Pipeline** → [backend-pipeline.yml](https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml)
+- **Backend Pipeline** → [backend-pipeline.yml](https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml) [![Backend Pipeline](https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-backend/actions/workflows/backend-pipeline.yml)
 
-- **Webscraper Pipeline** → [webscraper-pipeline.yml](https://github.com/fiscalismia/fiscalismia-webscraper/actions/workflows/webscraper-pipeline.yml)
+- **Webscraper Pipeline** → [webscraper-pipeline.yml](https://github.com/fiscalismia/fiscalismia-webscraper/actions/workflows/webscraper-pipeline.yml) [![Webscraper Pipeline](https://github.com/fiscalismia/fiscalismia-webscraper/actions/workflows/webscraper-pipeline.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-webscraper/actions/workflows/webscraper-pipeline.yml)
 
-- **Loadbalancer Pipeline** → [publish-haproxy-image.yml](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml)
+- **Loadbalancer Pipeline** → [publish-haproxy-image.yml](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml) [![Loadbalancer Pipeline](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml)
 
-- **Monitoring Pipeline** → [publish-prometheus-grafana-images.yml](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml)
+- **Monitoring Pipeline** → [publish-prometheus-grafana-images.yml](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml) [![Monitoring Pipeline](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml)
 
 ### _Target Server Deployment_
 
