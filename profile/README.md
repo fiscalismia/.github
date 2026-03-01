@@ -1,5 +1,23 @@
 ## Fiscalismia-Webservice
 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=aws&logoColor=white)
+![Hetzner](https://img.shields.io/badge/Hetzner-D50C2D?logo=hetzner&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
+![Podman](https://img.shields.io/badge/Podman-892CA0?logo=podman&logoColor=white)
+![Buildah](https://img.shields.io/badge/Buildah-CC0000?logo=buildah&logoColor=white)
+![HAProxy](https://img.shields.io/badge/HAProxy-003399?logo=haproxy&logoColor=white)
+![nftables](https://img.shields.io/badge/nftables-005AF0?logo=nftables&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
+![Snyk](https://img.shields.io/badge/Snyk-4C4A73?logo=snyk&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+
 **Technical Overview:**
 Fullstack Cloudservice consisting of frontend, backend, webscraper, HAproxy loadbalancer, NAT-Gateway, Lambda ETL, S3-storage, prometheus & grafana monitoring with their own respective repositories. Hosted in both Hetzner Cloud and AWS. Fully automated IaC via terraform and github actions.
 
@@ -10,19 +28,19 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 ### **https://github.com/orgs/fiscalismia/repositories**
 
-**FRONTEND (React & Material UI)**        → https://github.com/fiscalismia/fiscalismia-frontend
+**FRONTEND (React & Material UI)**        → https://github.com/fiscalismia/fiscalismia-frontend ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-frontend)
 
-**BACKEND (NodeJS Express REST API)**         → https://github.com/fiscalismia/fiscalismia-backend
+**BACKEND (NodeJS Express REST API)**         → https://github.com/fiscalismia/fiscalismia-backend ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-backend)
 
-**AWS & Hetzner Cloud Infrastructure**  → https://github.com/fiscalismia/fiscalismia-infrastructure
+**AWS & Hetzner Cloud Infrastructure**  → https://github.com/fiscalismia/fiscalismia-infrastructure ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-infrastructure)
 
-**HAProxy LoadBalancer**    → https://github.com/fiscalismia/fiscalismia-loadbalancer
+**HAProxy LoadBalancer**    → https://github.com/fiscalismia/fiscalismia-loadbalancer ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-loadbalancer)
 
-**AWS Lambdas**         → https://github.com/fiscalismia/fiscalismia-lambdas
+**AWS Lambdas**         → https://github.com/fiscalismia/fiscalismia-lambdas ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-lambdas)
 
-**Webscraper (Python Playwright)**         → https://github.com/fiscalismia/fiscalismia-webscraper
+**Webscraper (Python Playwright)**         → https://github.com/fiscalismia/fiscalismia-webscraper ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-webscraper)
 
-**Prometheus & Grafana Monitoring**      → https://github.com/fiscalismia/fiscalismia-monitoring
+**Prometheus & Grafana Monitoring**      → https://github.com/fiscalismia/fiscalismia-monitoring ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-monitoring)
 
 ---
 
