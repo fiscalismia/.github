@@ -2,6 +2,7 @@
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-278c99?logo=go)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
@@ -52,7 +53,7 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 ┗━ ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-webscraper) ![](https://img.shields.io/github/languages/top/fiscalismia/fiscalismia-webscraper) ![](https://img.shields.io/github/last-commit/fiscalismia/fiscalismia-webscraper) ![](https://img.shields.io/github/commit-activity/y/fiscalismia/fiscalismia-webscraper)
 
-[**Monitoring** Prometheus & Grafana ](https://github.com/fiscalismia/fiscalismia-monitoring)
+[**Monitoring** Concurrent Go Healthcheck & Prometheus & Grafana ](https://github.com/fiscalismia/fiscalismia-monitoring)
 
 ┗━ ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-monitoring) ![](https://img.shields.io/github/languages/top/fiscalismia/fiscalismia-monitoring) ![](https://img.shields.io/github/last-commit/fiscalismia/fiscalismia-monitoring) ![](https://img.shields.io/github/commit-activity/y/fiscalismia/fiscalismia-monitoring)
 
@@ -70,7 +71,9 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 [![Loadbalancer Pipeline](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-loadbalancer/actions/workflows/publish-haproxy-image.yml) ← [Dockerfile](https://github.com/fiscalismia/fiscalismia-loadbalancer/blob/main/Dockerfile)
 
-[![Monitoring Pipeline](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml) ← [Dockerfile.Prometheus](https://github.com/fiscalismia/fiscalismia-monitoring/blob/main/Dockerfile.Prometheus) [Dockerfile.Grafana](https://github.com/fiscalismia/fiscalismia-monitoring/blob/main/Dockerfile.Grafana)
+[![Grafana Monitoring Pipeline](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-prometheus-grafana-images.yml) ← [Dockerfile.Prometheus](https://github.com/fiscalismia/fiscalismia-monitoring/blob/main/prometheus_grafana/Dockerfile.Prometheus) [Dockerfile.Grafana](https://github.com/fiscalismia/fiscalismia-monitoring/blob/main/prometheus_grafana/Dockerfile.Grafana)
+
+[![Golang Monitoring Pipeline](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-go-monitoring-binary.yml/badge.svg)](https://github.com/fiscalismia/fiscalismia-monitoring/actions/workflows/publish-go-monitoring-binary.yml) ← [Dockerfile](https://github.com/fiscalismia/fiscalismia-monitoring/blob/main/golang/Dockerfile)
 
 ### _Target Server Deployment_
 
