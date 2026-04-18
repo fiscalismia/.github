@@ -45,10 +45,6 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 ┗━ ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-loadbalancer) ![](https://img.shields.io/github/languages/top/fiscalismia/fiscalismia-loadbalancer) ![](https://img.shields.io/github/last-commit/fiscalismia/fiscalismia-loadbalancer) ![](https://img.shields.io/github/commit-activity/y/fiscalismia/fiscalismia-loadbalancer)
 
-[**AWS Lambdas**](https://github.com/fiscalismia/fiscalismia-lambdas)
-
-┗━ ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-lambdas) ![](https://img.shields.io/github/languages/top/fiscalismia/fiscalismia-lambdas) ![](https://img.shields.io/github/last-commit/fiscalismia/fiscalismia-lambdas) ![](https://img.shields.io/github/commit-activity/y/fiscalismia/fiscalismia-lambdas)
-
 [**Webscraper** (Python Playwright)](https://github.com/fiscalismia/fiscalismia-webscraper)
 
 ┗━ ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-webscraper) ![](https://img.shields.io/github/languages/top/fiscalismia/fiscalismia-webscraper) ![](https://img.shields.io/github/last-commit/fiscalismia/fiscalismia-webscraper) ![](https://img.shields.io/github/commit-activity/y/fiscalismia/fiscalismia-webscraper)
@@ -56,6 +52,10 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 [**Monitoring** Concurrent Go Healthcheck & Prometheus & Grafana ](https://github.com/fiscalismia/fiscalismia-monitoring)
 
 ┗━ ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-monitoring) ![](https://img.shields.io/github/languages/top/fiscalismia/fiscalismia-monitoring) ![](https://img.shields.io/github/last-commit/fiscalismia/fiscalismia-monitoring) ![](https://img.shields.io/github/commit-activity/y/fiscalismia/fiscalismia-monitoring)
+
+[**AWS Lambdas**](https://github.com/fiscalismia/fiscalismia-lambdas)
+
+┗━ ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-lambdas) ![](https://img.shields.io/github/languages/top/fiscalismia/fiscalismia-lambdas) ![](https://img.shields.io/github/last-commit/fiscalismia/fiscalismia-lambdas) ![](https://img.shields.io/github/commit-activity/y/fiscalismia/fiscalismia-lambdas)
 
 ---
 
