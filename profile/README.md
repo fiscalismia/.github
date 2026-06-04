@@ -14,13 +14,11 @@
 ![HAProxy](https://img.shields.io/badge/HAProxy-003399?logo=haproxy&logoColor=white)
 ![nftables](https://img.shields.io/badge/nftables-005AF0?logo=nftables&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
 ![Snyk](https://img.shields.io/badge/Snyk-4C4A73?logo=snyk&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
 **Technical Overview:**
-Fullstack Cloudservice consisting of TypeScript Frontend, Backend, Python webscraper, Go Healthchecker, HAproxy loadbalancer, NAT-Gateway, Lambda ETL, S3-storage, prometheus & grafana monitoring with their own respective repositories. Hosted in both Hetzner Cloud and AWS. Fully automated IaC via terraform and github actions.
+Fullstack Cloudservice consisting of TypeScript Frontend, Backend, Python webscraper, HAproxy loadbalancer, NAT-Gateway, Lambda ETL, S3-storage, Golang http server health monitoring with their own respective repositories. Hosted in both Hetzner Cloud and AWS. Fully automated IaC via terraform and github actions.
 
 **Purpose:**
 Personal finance web service for visualizing, analyzing, aggregating, importing and exporting financial data with low friction and a high degree of automation.
