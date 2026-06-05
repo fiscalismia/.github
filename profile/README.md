@@ -47,7 +47,7 @@ Personal finance web service for visualizing, analyzing, aggregating, importing 
 
 ┗━ ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-webscraper) ![](https://img.shields.io/github/languages/top/fiscalismia/fiscalismia-webscraper) ![](https://img.shields.io/github/last-commit/fiscalismia/fiscalismia-webscraper) ![](https://img.shields.io/github/commit-activity/y/fiscalismia/fiscalismia-webscraper)
 
-[**Monitoring** Concurrent Go Healthcheck & Prometheus & Grafana ](https://github.com/fiscalismia/fiscalismia-monitoring)
+[**Monitoring** Concurrent Go Healthcheck ](https://github.com/fiscalismia/fiscalismia-monitoring)
 
 ┗━ ![](https://img.shields.io/github/repo-size/fiscalismia/fiscalismia-monitoring) ![](https://img.shields.io/github/languages/top/fiscalismia/fiscalismia-monitoring) ![](https://img.shields.io/github/last-commit/fiscalismia/fiscalismia-monitoring) ![](https://img.shields.io/github/commit-activity/y/fiscalismia/fiscalismia-monitoring)
 
